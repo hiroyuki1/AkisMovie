@@ -77,7 +77,7 @@ h1 {
 .handw {
     background-color: rgb(177, 6, 71);
 }
-.handw .container {
+.handw {
     display:flex;
 }
 .handw-text {
