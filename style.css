@@ -1,0 +1,263 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin-bottom: 0;
+}
+.header-right ul {
+    display: none;
+}
+.header-right li {
+    list-style:none;
+    display: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+    font-size: 16px;
+    font-family: "Yu Mincho";
+}
+.header-inner {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.header-left {
+    align-self: center;
+}
+.header-left h1 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color:#fff;
+}
+.dropdown button{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    z-index: 2;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    color: #fff;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+.dropdown-menu {
+    color:#fff;
+}
+.dropdown-item {
+    color:#fff;
+}
+.top {
+    position: relative;
+}
+.top-text {
+    position: absolute;
+    bottom:20px;
+    left:20px;
+}
+.top-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color:#fff;
+    text-align: center;
+    font-family: "Yu Mincho";
+}
+.top-text h1:first-child {
+    font-size: 28px;
+}
+.carousel-item  img{
+    width: 640px;
+    height: 482px;
+}
+.news {
+    background-color: rgb(177, 6, 71);
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.box_voice {
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+    margin:30px auto;
+    font-size: 18px;
+    line-height:40px;
+    font-weight: bold;
+}
+
+.box_voice:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+    margin: 0;
+}
+
+.box_voice:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 2rem;
+    height: 2rem;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+    margin: 0;
+}
+.news h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color:#fff;
+    margin-top: 0;
+}
+li {
+    list-style: none;
+}
+.list-group li {
+    color:#fff;
+    font-family: "Yu Mincho";
+    display:flex;
+    justify-content: space-between;
+}
+.movies {
+    padding-top: 30px;
+    background-color: black;
+    padding-bottom: 60px;
+}
+.movies h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color:#fff;
+}
+.movie {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+.movie h1 {
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color:#ebb94d;
+}
+.movie-img img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.movie-img img:not(first-child) {
+    margin-top: 20px;
+}
+.card {
+    margin-bottom: 50px;
+}
+.readings {
+    background-color: rgb(177, 6, 71);
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.readings h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color:#fff;
+    margin-top: 0;
+}
+.reading {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 70%;
+}
+.reading:last-child {
+    margin-bottom: 0;
+}
+.reading-clip {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+#reading-new {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color:#ebb94d;
+}
+a {
+    color:#fff;
+}
+a:hover {
+    color:#fff;
+    opacity:0.5;
+}
+.link {
+    border:3px solid #ebb94d;
+    background-color: #343A40;
+    width: 100%;
+    margin: 0 auto;
+    text-overflow: wrap;
+}
+.link ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    flex-wrap:wrap;  
+}
+.link li {
+    margin:0 20px 0 0;
+    font-size: 14px;
+    list-style:none;
+    color: white;
+}
+.link a {
+    color:white;
+    text-decoration: none;
+}
+.link a:hover {
+    text-decoration-line: underline;
+}
+.social-btns {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
+.twitter {
+    margin-right: 5px;
+}
+.twitter, .facebook {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height:30px;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    color:#fff;
+    height:40px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+/* ふわっと */
+.fadein {
+    opacity : 0;
+    transform: translateY(20px);
+    transition: all 1s;
+  }
+
+
+
